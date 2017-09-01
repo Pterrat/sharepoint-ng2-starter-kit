@@ -1,4 +1,4 @@
-<button class="ms-Button ms-Button--hero">
-  <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--Add"></i></span> 
-  <span class="ms-Button-label">Create Account</span> 
+<button type="button" (click)="clickButton()" class="ms-Button ms-Button--hero">
+  <span class="ms-Button-icon"><i [class]="iconClass"></i></span> 
+  <span class="ms-Button-label">{{title}}</span> 
 </button>

@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  // tslint:disable-next-line:one-line
+  goTo(hash: string){
+    location.hash = hash;
+  }
 }
 
 
