@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'button-normal',
+  selector: 'sp-button-normal',
   templateUrl: './button-normal.component.html',
   styleUrls: ['./button-normal.component.css']
 })

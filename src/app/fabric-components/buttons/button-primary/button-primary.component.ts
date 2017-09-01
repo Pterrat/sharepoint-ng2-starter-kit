@@ -2,7 +2,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'button-primary',
+  selector: 'sp-button-primary',
   templateUrl: './button-primary.component.html',
   styleUrls: ['./button-primary.component.css']
 })

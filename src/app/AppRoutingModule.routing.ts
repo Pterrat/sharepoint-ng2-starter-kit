@@ -1,3 +1,4 @@
+import { DemoCheckboxComponent } from './demo/demoCheckbox/demoCheckbox.component';
 import { DemoBreadcrumbComponent } from './demo/demoBreadcrumb/demoBreadcrumb.component';
 import { DemoButtonComponent } from './demo/demoButton/demoButton.component';
 import { Routes, RouterModule } from '@angular/router';
@@ -15,6 +16,10 @@ const routes: Routes = [
   {
     path: 'breadcrumb',
     component: DemoBreadcrumbComponent
+  },
+  {
+    path: 'checkboxes',
+    component: DemoCheckboxComponent
   }
 ];
 @NgModule({

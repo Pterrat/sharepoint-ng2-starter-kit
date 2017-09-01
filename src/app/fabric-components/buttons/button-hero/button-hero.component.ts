@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'button-hero',
+  selector: 'sp-button-hero',
   templateUrl: './button-hero.component.html',
   styleUrls: ['./button-hero.component.css']
 })

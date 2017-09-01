@@ -1,3 +1,5 @@
+import { CheckboxComponent } from './fabric-components/checkboxes/checkbox/checkbox.component';
+import { DemoCheckboxComponent } from './demo/demoCheckbox/demoCheckbox.component';
 import { BreadcrumbComponent } from './fabric-components/breadcrumb/breadcrumb/breadcrumb.component';
 import { DemoBreadcrumbComponent } from './demo/demoBreadcrumb/demoBreadcrumb.component';
 import { DemoButtonComponent } from './demo/demoButton/demoButton.component';
@@ -26,10 +28,13 @@ import { APP_BASE_HREF } from '@angular/common';
     ButtonHeroComponent,
     ButtonPrimaryComponent,
     ButtonSmallComponent,
+    CheckboxComponent,
+
+    BreadcrumbComponent,
     DemoComponent,
     DemoButtonComponent,
     DemoBreadcrumbComponent,
-    BreadcrumbComponent
+    DemoCheckboxComponent
   ],
   imports: [
     BrowserModule,
