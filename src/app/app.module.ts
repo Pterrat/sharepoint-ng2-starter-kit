@@ -1,3 +1,5 @@
+import { BreadcrumbComponent } from './fabric-components/breadcrumb/breadcrumb/breadcrumb.component';
+import { DemoBreadcrumbComponent } from './demo/demoBreadcrumb/demoBreadcrumb.component';
 import { DemoButtonComponent } from './demo/demoButton/demoButton.component';
 import { AppRoutingModuleRoutes } from './AppRoutingModule.routing';
 import { ButtonSmallComponent } from './fabric-components/buttons/button-small/button-small.component';
@@ -25,7 +27,9 @@ import { APP_BASE_HREF } from '@angular/common';
     ButtonPrimaryComponent,
     ButtonSmallComponent,
     DemoComponent,
-    DemoButtonComponent
+    DemoButtonComponent,
+    DemoBreadcrumbComponent,
+    BreadcrumbComponent
   ],
   imports: [
     BrowserModule,
